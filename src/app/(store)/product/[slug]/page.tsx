@@ -1,3 +1,4 @@
+import AddCartButton from "@/components/add-cart-button";
 import { IProduct } from "@/data/types/product";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -83,9 +84,7 @@ export default async function Product({ params }: ProductParams) {
           </div>
         </div>
 
-        <button className="w-full h-12 bg-emerald-500 px-5 py-2.5 rounded-full font-bold mt-6">
-          Adicionar ao carrinho
-        </button>
+        <AddCartButton productId={product.id} />
       </section>
     </div>
   );

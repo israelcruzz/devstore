@@ -1,7 +1,8 @@
-import { Search, ShoppingBag } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import SearchInput from "./search-input";
+import CartWidget from "./cart-widget";
 
 export default function Header() {
   return (
@@ -13,10 +14,7 @@ export default function Header() {
       </section>
 
       <section className="flex items-center gap-3">
-        <div className="flex items-center gap-2">
-          <ShoppingBag className="w-4 h-4" />
-          <h1>Cart (0)</h1>
-        </div>
+        <CartWidget />
 
         <div className="w-px h-4 bg-slate-700"></div>
 
