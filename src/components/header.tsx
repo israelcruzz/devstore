@@ -28,7 +28,7 @@ export default function Header() {
 
         <Link href='/' className="flex gap-3 items-center">
             <span className="font-medium hover:underline text-sm">Account</span>
-            <Image width={24} height={24} className="rounded-full h-6 w-6" src="/moletom-never-stop-learning.png" alt="" />
+            <Image width={24} height={24} className="rounded-full h-6 w-6" src="/profile.png" alt="" />
         </Link>
       </section>
     </header>

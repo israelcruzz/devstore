@@ -7,6 +7,8 @@ interface GetSlugParams {
 }
 
 export async function GET(_: Request, { params }: GetSlugParams) {
+  await new Promise(resolve => setTimeout(resolve, 2000))
+
   const product = data.products.filter(
     (product) => product.slug === params.slug
   );
