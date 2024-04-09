@@ -9,9 +9,6 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="max-w-[1240px] mx-auto py-6">
-      <Header />
-
       <div className="w-full mt-6 flex gap-6">
         <section className="w-full bg-zinc-900 rounded-lg relative">
           <Link href={"/"}>
@@ -67,6 +64,5 @@ export default function Home() {
           </Link>
         </section>
       </div>
-    </main>
   );
 }

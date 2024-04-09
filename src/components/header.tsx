@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="w-full flex justify-between">
       <section className="flex items-center gap-3">
-        <h1 className="text-2xl font-extrabold">devstore</h1>
+        <Link href='/' className="text-2xl font-extrabold">devstore</Link>
 
         <form className="flex w-[320px] items-center gap-3 px-5 py-3 rounded-full bg-zinc-900">
           <Search className="w-5 h-5 text-zinc-500" />
