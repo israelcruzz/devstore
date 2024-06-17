@@ -21,7 +21,7 @@
     <td colspan="1">Web App</td>
   </tr>
   <tr>
-    <td><img src=".github/home.png" width="1000px" /></td></td>
+    <td><img src="https://github.com/israelcruzz/devstore/blob/main/public/home%20(6).png" width="1000px" /></td></td>
   </tr>
 </table>
 
