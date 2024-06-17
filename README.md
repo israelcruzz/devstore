@@ -1,4 +1,4 @@
-<h1 align="center"><img src=".github/icon.png" width="100px"/></h1>
+<h1 align="center"><img src="https://github.com/israelcruzz/devstore/blob/main/public/favicon.png" width="100px"/></h1>
 
 <h3 align="center">devstore</h3>
 
